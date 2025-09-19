@@ -1,20 +1,21 @@
 //dummy about
 
 import HeroSection from "@/components/Common/HeroSection";
-import CompanyDirector from "@/components/About/CompanyDirector";
-import Anindya from "@/components/About/Anindya";
+import ManagementTeam from "@/components/AboutTeam/ManagementTeam";
+import LeadingTeam from "@/components/AboutTeam/LeadingTeam";
+import Question from "@/components/Common/Questions";
 import LetsConnect from "@/components/Common/LetsConnect";
-import Questions from "@/components/Common/Questions";
+
 
 
 export default function About() {
     return (
         <div>
             <HeroSection />
-            <CompanyDirector />
-            <Anindya />
+            <ManagementTeam />
+            <LeadingTeam />
             <LetsConnect />
-            <Questions />
+            <Question />
             
         </div>
     );

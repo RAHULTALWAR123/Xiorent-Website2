@@ -3,7 +3,7 @@ import React from "react";
 
 const CookiePolicy = () => {
     return (
-        <div className="min-h-screen bg-slate-900 text-white-400 p-[120px]">
+        <div className="min-h-screen bg-transparent text-white-400 p-[120px]">
             {/* Title */}
             <h1 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 via-indigo-500 to-sky-500 bg-clip-text text-transparent">
                 Cookies Policy

@@ -4,7 +4,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900/60 to-slate-900 text-gray-100 px-[120px] py-[120px]">
+    <div className="min-h-screen bg-gradient-to-br bg-transparent text-gray-100 px-[120px] py-[120px]">
       {/* Heading */}
        <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-purple-600 via-indigo-500 to-sky-500 bg-clip-text text-transparent">
       Privacy Policy
